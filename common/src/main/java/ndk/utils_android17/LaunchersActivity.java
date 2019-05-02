@@ -1,11 +1,12 @@
 package ndk.utils_android17;
 
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
-import android.support.constraint.ConstraintSet;
-import android.support.v4.util.Pair;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintSet;
+import androidx.core.util.Pair;
 
 import java.util.Objects;
 
