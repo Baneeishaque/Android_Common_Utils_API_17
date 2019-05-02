@@ -34,8 +34,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
 //    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_14:a69a4e1e36'
-    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_14:4e3985419c'
-    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_1:7359adffb3'
+//    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_14:4e3985419c'
+    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_14:a159aea02c'
+//    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_1:7359adffb3'
+    implementation 'com.github.Baneeishaque:Android_Common_Utils_API_1:a351d6428e'
 
     testImplementation 'junit:junit:4.12'
 
