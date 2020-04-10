@@ -49,7 +49,7 @@ public abstract class LaunchersActivity extends ContextActivity {
             button.setLayoutParams(layoutParams);
 
             button.setOnClickListener(v -> {
-                ActivityUtils.start_activity(activity_context, (Class) button_item.second);
+                ActivityUtils.startActivity(activityContext, (Class) button_item.second);
             });
 
             // Add Button to LinearLayout

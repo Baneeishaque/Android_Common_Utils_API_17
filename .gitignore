@@ -382,8 +382,6 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,linux,macos,gradle,android,windows,intellij,notepadpp,androidstudio,visualstudiocode
-.idea/encodings.xml
-.idea/gradle.xml
-.idea/misc.xml
-.idea/modules.xml
+
 .idea/runConfigurations.xml
+.idea/codeStyles/Project.xml
