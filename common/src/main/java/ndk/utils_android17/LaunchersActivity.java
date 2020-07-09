@@ -11,10 +11,10 @@ import androidx.core.util.Pair;
 import java.util.Objects;
 
 import ndk.utils_android1.ActivityUtils;
+import ndk.utils_android1.ActivityWithContexts;
 import ndk.utils_android1.DisplayHelper;
-import ndk.utils_android14.ContextActivity;
 
-public abstract class LaunchersActivity extends ContextActivity {
+public abstract class LaunchersActivity extends ActivityWithContexts {
 
     //TODO : Fix Margins of buttons - left, right, top : first & others, bottom : first & others
     //TODO : Stroke for button
@@ -49,7 +49,7 @@ public abstract class LaunchersActivity extends ContextActivity {
             button.setLayoutParams(layoutParams);
 
             button.setOnClickListener(v -> {
-                ActivityUtils.startActivity(activityContext, (Class) button_item.second);
+                ActivityUtils.startActivityForClass(currentActivityContext, (Class) button_item.second);
             });
 
             // Add Button to LinearLayout
