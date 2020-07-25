@@ -10,7 +10,7 @@ import androidx.core.util.Pair;
 
 import java.util.Objects;
 
-import ndk.utils_android1.ActivityUtils;
+import ndk.utils_android1.ActivityUtils1;
 import ndk.utils_android1.ActivityWithContexts;
 import ndk.utils_android1.DisplayHelper;
 
@@ -49,7 +49,7 @@ public abstract class LaunchersActivity extends ActivityWithContexts {
             button.setLayoutParams(layoutParams);
 
             button.setOnClickListener(v -> {
-                ActivityUtils.startActivityForClass(currentActivityContext, (Class) button_item.second);
+                ActivityUtils1.startActivityForClass(currentActivityContext, (Class) button_item.second);
             });
 
             // Add Button to LinearLayout
