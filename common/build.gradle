@@ -31,10 +31,10 @@ android {
         }
     }
 
-    lintOptions {
-
-        abortOnError false
-    }
+//    lintOptions {
+//
+//        abortOnError false
+//    }
 
     // Specifies flavor dimension.
     flavorDimensions "relevence"
