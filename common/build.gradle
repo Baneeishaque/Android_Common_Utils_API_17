@@ -103,5 +103,5 @@ dependencies {
     implementation project(path: ':Utils_1:common1')
     implementation project(path: ':Utils_14:common14')
 
-    testImplementation 'junit:junit:4.13'
+    testImplementation 'junit:junit:4.13.2'
 }
