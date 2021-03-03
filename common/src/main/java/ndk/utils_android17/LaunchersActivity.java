@@ -11,7 +11,7 @@ import androidx.core.util.Pair;
 import java.util.Objects;
 
 import ndk.utils_android1.ActivityUtils1;
-import ndk.utils_android1.ActivityWithContexts;
+import ndk.utils_android14.ActivityWithContexts;
 import ndk.utils_android1.DisplayHelper;
 
 public abstract class LaunchersActivity extends ActivityWithContexts {
