@@ -11,7 +11,7 @@ buildscript {
     dependencies {
 
         classpath 'com.android.tools.build:gradle:7.0.0-alpha08'
-        classpath "com.github.plnice:canidropjetifier:0.4"
+        classpath "com.github.plnice:canidropjetifier:0.5"
     }
 }
 
