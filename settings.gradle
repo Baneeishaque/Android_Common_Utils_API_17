@@ -1,3 +1,6 @@
 include ':common'
 include ':Utils_1:common1'
 include ':Utils_14:common14'
+
+include ':Resources:common'
+project(':Resources:common').projectDir = new File(settingsDir, './Utils_14/Resources/common')

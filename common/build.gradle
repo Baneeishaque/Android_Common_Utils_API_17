@@ -33,11 +33,6 @@ android {
         }
     }
 
-//    lintOptions {
-//
-//        abortOnError false
-//    }
-
     // Specifies flavor dimension.
     flavorDimensions "relevence"
     productFlavors {
@@ -91,7 +86,6 @@ android {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
     }
-
 }
 
 dependencies {
