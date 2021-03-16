@@ -1,6 +1,3 @@
-[submodule "Utils_1"]
-	path = Utils_1
-	url = https://github.com/Baneeishaque/Android-Common-Utils1.git
-[submodule "Utils_14"]
-	path = Utils_14
-	url = https://github.com/Baneeishaque/Android-Common-Utils14.git
+[submodule "Utils16"]
+	path = Utils16
+	url = https://github.com/Baneeishaque/Android-Common-Utils16.git
