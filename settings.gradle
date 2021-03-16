@@ -1,6 +1,10 @@
-include ':common'
-include ':Utils_1:common1'
-include ':Utils_14:common14'
+include ':common17'
+
+include ':Utils14:common14'
+project(':Utils14:common14').projectDir = new File(settingsDir, './Utils16/Utils14/common14')
 
 include ':Resources:common'
-project(':Resources:common').projectDir = new File(settingsDir, './Utils_14/Resources/common')
+project(':Resources:common').projectDir = new File(settingsDir, './Utils16/Utils14/Resources/common')
+
+include ':Utils1:common1'
+project(':Utils1:common1').projectDir = new File(settingsDir, './Utils16/Utils14/Utils11/Utils9/Utils7/Utils4/Utils3/Utils1/common1')
