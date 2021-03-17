@@ -1,2 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ndk.utils_android17" />
+<manifest package="ndk.utils_android17" />
